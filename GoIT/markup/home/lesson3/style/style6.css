@@ -22,30 +22,3 @@ span {
 .blue {
  	background-color: blue;
  }
-#red:not(:checked) ~ .red {
-   display:none;
- }
-#green:not(:checked) ~ .green {
-  display:none;
- }
-#blue:not(:checked) ~ .blue {
-   display:none;
- }
-#red:not(:checked) ~ label[for="red"]{
-   color: rgba(255,0,0, 0.4);
- }
-#green:not(:checked) ~ label[for="green"]{
-     color: rgba(0,255,0, 0.4);
- }
-#blue:not(:checked) ~ label[for="blue"]{
-     color: rgba(0,0,255, 0.4);
- }
-label[for="red"] {
- 	color: red;
- }
-label[for="green"] {
- 	color: green;
- }
-label[for="blue"] {
- 	color: blue;
- }
