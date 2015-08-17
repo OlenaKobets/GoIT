@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    	<meta charset="UTF-8">
+    	<title>forms_hw</title>
+    </head>
+<body>
+<form>
+    	<p>Name<br/>
+    		<input type="text" name="userName">
+    	</p>
+    	<p>Email<br/>
+    		<input type="text" name="userMail">
+    	</p>
+    	<p>Sex<br/>
+    		<input type="radio" name="sex" value="Male">Male
+    		<input type="radio" name="sex" value="Female">Female
+    	</p>
+    	<p>Current Status<br/>
+    		<input type="checkbox" name="status" value="Student">Student<br/>
+    		<input type="checkbox" name="status" value="Employed">Employed<br/>
+    		<input type="checkbox" name="status" value="Unemployed">Unemployed
+    	</p>
+    	<p>Month and Year of birth<br/>
+    	<select name="birthDate">
+          	<option value selected="January">January</option>
+          	<option value="February">February</option>
+          	<option value="March">March</option>
+          	<option value="April">April</option>
+        	</select>
+    	<select>
+            <option value="1982">1982</option>
+          	<option value="1983">1983</option>
+          	<option value selected="1984">1984</option>
+          	<option value="1985">1985</option>
+          	<option value="1986">1986</option>
+        	</select>
+    	</p>
+    	<p>Skills and Technologies<br/>
+       <select name="skills" size="10">
+            <optgroup label="Tech skills">
+             <option value="ts1">HTML</option>
+             <option value="ts2">CSS</option>
+             <option value="ts3">JavaScript</option>
+             <option value="ts4">git</option>
+             </optgroup>
+             <optgroup label="Soft skills">
+             <option value="ss1">Time management</option>
+             <option value="ss2">Proactivity</option>
+             <option value="ss3">Teamwork</option>
+             <option value="ss4">Leadership</option>
+            </optgroup>
+           </select></p>
+       <p>Photo<br/>
+       <input type="file" name="photo">
+    	</p>
+    	<p>Comments<br/>
+       <textarea rows="4" name="comments"> </textarea>
+    	</p>
+    	<input type="button" name="save" value="Save">
+</form>
+</body>
+</html>
