@@ -1,0 +1,51 @@
+input[type="checkbox"]
+{
+    display:none;
+}
+label
+{  font-size: 22px;
+   cursor: pointer;
+    text-decoration:underline;
+ }
+span {
+ 	border-radius: 5px;
+ 	color: white;
+ 	margin: auto;
+ 	font-size: 20px;
+ }
+.red {
+ 	background-color: red;
+ }
+.green {
+ 	background-color: green;
+ }
+.blue {
+ 	background-color: blue;
+ }
+#red:not(:checked) ~ .red {
+   display:none;
+ }
+#green:not(:checked) ~ .green {
+  display:none;
+ }
+#blue:not(:checked) ~ .blue {
+   display:none;
+ }
+#red:not(:checked) ~ label[for="red"]{
+   color: rgba(255,0,0, 0.4);
+ }
+#green:not(:checked) ~ label[for="green"]{
+     color: rgba(0,255,0, 0.4);
+ }
+#blue:not(:checked) ~ label[for="blue"]{
+     color: rgba(0,0,255, 0.4);
+ }
+label[for="red"] {
+ 	color: red;
+ }
+label[for="green"] {
+ 	color: green;
+ }
+label[for="blue"] {
+ 	color: blue;
+ }
