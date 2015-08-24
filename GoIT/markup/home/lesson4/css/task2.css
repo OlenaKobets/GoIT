@@ -1,3 +1,4 @@
+
 nav {
 	background-color: #A64DFF;
 	line-height: 2.0;
@@ -33,4 +34,5 @@ nav {
 	position: relative;
 	top: -42px;
 	margin-right: 50px;
+        min-left: 200px;
 }
