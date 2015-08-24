@@ -1,0 +1,36 @@
+nav {
+	background-color: #A64DFF;
+	line-height: 2.0;
+	text-transform: uppercase;
+	font-family: Impact;
+	font-size: 1.3em;
+}
+
+.menu {
+	width: 900px;
+	margin: 0 auto;
+	list-style: none;
+	color: #FFF;
+	transform: scaleY(1.2);
+}
+
+.menu li {
+	display: inline-block;
+	padding: 0 25px;
+	cursor: pointer;
+}
+
+.menu li:hover {
+	background-color: #EEEEEE;
+	color: #A8A4A1;
+	box-shadow: 0 0 3px rgba(0,0,0,0.5);
+	line-height: 1.65;
+}
+
+.rfloat {
+	width: 45px;
+	float: right;
+	position: relative;
+	top: -42px;
+	margin-right: 50px;
+}

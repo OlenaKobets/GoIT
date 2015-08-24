@@ -1,0 +1,38 @@
+.my_pager {
+    color: #A23CD0;
+    font-family: sans-serif;
+}
+
+.item {
+    display: inline-block;
+    border: solid 1px #EEEEEE;
+    text-transform: uppercase;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    text-align:center;
+    cursor: pointer;
+}
+
+.next_word {
+    border: none;
+    width: 70px;
+}
+
+.pager_gap {
+    border: none;
+    vertical-align: bottom;
+    padding: 13px 7px 0 7px;
+}
+
+.my_pager  ul {
+    list-style: none;
+}
+
+.item:hover,
+.item:focus {
+    background-color: #A23BD2;
+    border-color: #A23BD2;
+    color: #FFF;
+}
