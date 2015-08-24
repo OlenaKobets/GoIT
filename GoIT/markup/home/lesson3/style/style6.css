@@ -23,6 +23,12 @@ span {
  	background-color: blue;
  }
 
+
+label[for="red"] {
+ 	color: red;
+ }
+label[for="green"] {
+ 	color: green;
  }
 label[for="blue"] {
  	color: blue;
