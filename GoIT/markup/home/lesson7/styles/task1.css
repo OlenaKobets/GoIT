@@ -1,0 +1,44 @@
+body {
+    padding-left: 50px;
+}
+.testing_sight {
+    position: relative;
+    text-align: justify;
+    width: 400px;
+    font-family: arial, sans-serif;
+    /*Задает выравнивание последней строки текста, когда свойство text-align установлено как justify.
+    Строка выравнивается по ширине. Если в последней строке только одно слово, то оно будет выравнено по левому краю.*/
+    text-align-last: justify;
+    color: rgba(0,0,0,0);
+    text-shadow: 0 0 2px #555555;
+    /*IE 10+*/
+    /*text-shadow: #555555 0px 0px 3px 1px;*/
+    line-height: 8px;
+}
+p {
+    text-align: justify;
+}
+p::after {
+    display: inline-block;
+    content: "";
+    width: 100%;
+}
+.uline {
+    border-bottom: 2px solid;
+    border-color: rgba(255, 0, 0, 0.2);
+    position: relative;
+    top: -5px;
+}
+
+.sight01 { font-size: 7em; }
+.sight02 { font-size: 5.5em; }
+.sight03 { font-size: 5em; }
+.sight04 { font-size: 4.5em; }
+.sight05 { font-size: 4em; }
+.sight06 { font-size: 3.1em; }
+.sight07 { font-size: 2.2em; }
+.sight08 { font-size: 1.8em; }
+.sight09 { font-size: 1.3em; }
+.sight10 { font-size: 0.9em; }
+.sight15 { font-size: 0.7em; }
+.sight20 { font-size: 0.5em; }
