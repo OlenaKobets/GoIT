@@ -10,7 +10,7 @@ body {
     Строка выравнивается по ширине. Если в последней строке только одно слово, то оно будет выравнено по левому краю.*/
     text-align-last: justify;
     color: rgba(0,0,0,0);
-    text-shadow: 0 0 2px #555555;
+    text-shadow: 0 0 3px #555555;
     /*IE 10+*/
     /*text-shadow: #555555 0px 0px 3px 1px;*/
     line-height: 8px;
