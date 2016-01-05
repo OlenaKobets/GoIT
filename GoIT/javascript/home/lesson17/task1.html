@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        .external {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+
+
+<a name="list">Cписок ссылок</a>
+<ul>
+    <li><a href="http://google.com">http://google.com</a></li>
+    <li><a href="/my">mysite.html</a></li>
+    <li><a href="local/path">local/path</a></li>
+    <li><a href="https://translate.google.com.ua">translate.google.com.ua</a></li>
+    <li><a href="http://nodejs.org">http://nodejs.org</a></li>
+    <li><a href="http://albion-books.com">albion-books.com</a></li>
+</ul>
+
+
+<script>
+    var css = 'a[href*="://"]:not([href^="http://internal.com"])';
+    var links = document.querySelectorAll(css);
+
+    for (var i = 0; i < links.length; i++) {
+        links[i].classList.add('external');
+    }
+</script>
+
+</body>
+
+</html>
