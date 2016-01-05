@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Slider gift site</title>
+    <link rel="stylesheet" href="style/style1.css">
+    <script src="js/slider.js"></script>
+</head>
+<body>
+
+<div class="slider">
+    <div class="slider_img">
+        <div class="slider_img-wrap">
+            <img src="img/1.png" alt="Photo 1">
+            <img src="img/2.png" alt="Photo 2">
+            <img src="img/3.png" alt="Photo 3">
+            <img src="img/4.png" alt="Photo 4">
+        </div>
+    </div>
+
+    <div class="slider_navigation">
+        <a href="#" class="slider_pager slider_pager_previous"><i class="icon-chevron-left icon-large"></i></a>
+        <a href="#" class="slider_pager slider_pager_next"><i class="icon-chevron-right icon-large"></i></a>
+
+        <ul class="slider_pagination">
+        </ul>
+    </div>
+</div>
+
+<script src="js/slider.js"></script>
+<script>
+    new Slider('.slider', {
+        direction: 'horizontal',
+        changeInterval: 1500
+    });
+</script>
+
+</body>
+</html>
